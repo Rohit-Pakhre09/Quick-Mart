@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/510uTHyDqGL._UF1000,1000_QL80_.jpg",
+      "title": "Windows Laptop",
+      "category": "Electronics",
+      "status": "available",
+      "description": "A high-performance laptop suitable for work and entertainment.",
+      "price": 57999
+    },
+    {
+      "id": 2,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp1CeIgyur6t6qtiqEXblpviTQRoZHL1_QZg&s",
+      "title": "Samsung Mobile",
+      "category": "Electronics",
+      "status": "available",
+      "description": "A modern smartphone with advanced features and sleek design.",
+      "price": 24999
+    },
+    {
+      "id": 3,
+      "img": "https://m.media-amazon.com/images/I/711vAJ8fWlL._UF894,1000_QL80_.jpg",
+      "title": "Lay's Chips",
+      "category": "Food and beverages",
+      "status": "unavailable",
+      "description": "Crispy Lay's chips, perfect for snacking anytime.",
+      "price": 70
+    },
+    {
+      "id": 4,
+      "img": "https://bfasset.costco-static.com/U447IH35/as/6xgs5sfqn34fnc59cvp974m9/1664082-847__1?auto=webp&amp;format=jpg&width=600&height=600&fit=bounds&canvas=600,600",
+      "title": "Oreo Cookies",
+      "category": "Food and beverages",
+      "status": "available",
+      "description": "Delicious Oreo cookies with creamy filling.",
+      "price": 80
+    },
+    {
+      "id": 5,
+      "img": "https://www.lysol.com/static/37a3334ca1e6ca33119d22107dfad61f/69142/en-US-3213757_lysol_disinfecting_wipes_early_morning_breeze_6_80_ct.png",
+      "title": "Lysol Disinfectant Wipes",
+      "category": "Household and kitchen essentials",
+      "status": "available",
+      "description": "Lysol disinfectant wipes for cleaning and sanitizing surfaces.",
+      "price": 300
+    },
+    {
+      "id": 6,
+      "img": "https://m.media-amazon.com/images/I/61YIfgu3ylL._UF1000,1000_QL80_.jpg",
+      "title": "Tide Detergent",
+      "category": "Household and kitchen essentials",
+      "status": "available",
+      "description": "Tide detergent for effective laundry cleaning.",
+      "price": 450
+    },
+    {
+      "id": 7,
+      "img": "https://m.media-amazon.com/images/I/51O+J5jnXcL._UF1000,1000_QL80_.jpg",
+      "title": "Cetaphil Cleanser",
+      "category": "Beauty and personal care",
+      "status": "unavailable",
+      "description": "Gentle Cetaphil cleanser for daily skincare routine.",
+      "price": 350
+    }
+  ]
+}

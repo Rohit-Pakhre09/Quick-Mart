@@ -1,16 +1,97 @@
-# React + Vite
+# 🛒 Quick Mart – Product Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+**Quick Mart** is a **Product Management Application** built with **React JS** and **Redux Toolkit**, using **JSON Server** as a mock backend.  
+It demonstrates **full CRUD functionality**, along with **search** and **filter** features, while managing state entirely through **Redux Toolkit**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of a **React JS Practical Exam (50 Marks)**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔹 Add new products (Title, Category, Price)
+- 🔹 Edit existing products
+- 🔹 Delete products
+- 🔹 Fetch and display products from JSON Server
+- 🔹 Search products by **title**
+- 🔹 Filter products by **category**
+- 🔹 Combined **search + filter** functionality
+- 🔹 Global state management with **Redux Toolkit**
+- 🔹 Clean and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React JS, Redux Toolkit, pnpm package manager
+- **Backend (Mock API):** JSON Server
+- **Styling:** Tailwind CSS
+
+---
+
+## 📸 Sneak Peak
+
+![Home Page](/src/assets/preview1.png)
+
+![Add Product](/src/assets/preview2.png)
+![Edit Product](assets/edit-product.png)
+
+---
+
+## 📂 Folder Structure
+
+```bash
+quick-mart/
+│
+├── public/
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Application pages
+│ ├── modules/
+│ │ ├── store.js # Redux store setup
+│ │ └── productSlice.js # Product slice with CRUD operations
+│ ├── App.js # Root component
+│ └── index.js # Entry point
+│
+├── db.json # JSON Server mock database
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚡ Setup Instructions
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/quick-mart.git
+cd quick-mart
+```
+
+### Install Dependencies
+
+```bash
+pnpm install
+```
+
+### Start JSON Server
+
+```bash
+npx json-server --watch db.json
+```
+
+### Start React App
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+- **Name:** Rohit Pakhre
+- **Project:** Quick Mart – Product Management Application
