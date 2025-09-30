@@ -36,7 +36,9 @@ This project was developed as part of a **React JS Practical Exam (50 Marks)**.
 ![Home Page](/src/assets/preview1.png)
 
 ![Add Product](/src/assets/preview2.png)
-![Edit Product](assets/edit-product.png)
+
+## 🎥 Video Preview
+![Edit Product](/src/assets/Quick%20Mart.gif)
 
 ---
 
